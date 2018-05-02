@@ -202,7 +202,7 @@ function _callbackOnAWSForcePasswdChange(userAttributes, requiredAttributes) {
     // Get these details and call
     // newPassword: password that user has given
     // attributesData: object with key as attribute name and value that the user has given.
-    cognitoUser.completeNewPasswordChallenge('password123', {}, this)
+    cognitoUser.completeNewPasswordChallenge('Password123!', {}, this)
 }
 
 
