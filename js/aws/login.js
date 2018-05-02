@@ -89,6 +89,7 @@ function getUrlHash(url) {
 }
 
 function onLogin() {
+  console.log(getParameterByName('auth'));
     var auth = getParameterByName('auth');
     var userNameFld = document.getElementById('userName');
     var userName = userNameFld.value;
