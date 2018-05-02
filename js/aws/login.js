@@ -27,6 +27,7 @@ function init() {
 
     // Load cognito User from local storage
     var userPool = _makeUserPool();
+    console.log(userPool);
     cognitoUser = userPool.getCurrentUser();
 
     // If not Found, show login page
