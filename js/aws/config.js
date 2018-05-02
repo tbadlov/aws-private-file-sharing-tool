@@ -7,7 +7,7 @@ var awsConfig = {
     // relayingPartyId: 'cognito-s3-internal',
     // adfsUrl: 'https://<adfs-server-ip>/adfs/ls/IdpInitiatedSignOn.aspx',
     // adfsLogoutUrl: 'https://<adfs-server-ip>/adfs/ls/?wa=wsignout1.0',
-    // roleSelectedArn: 'arn:aws:iam::768457611014:role/Cognito_vikarAuth_Role',
-    roleSelectedArn: 'arn:aws:iam::768457611014:role/TestS3',
+    roleSelectedArn: 'arn:aws:iam::768457611014:role/Cognito_vikarAuth_Role',
+    // roleSelectedArn: 'arn:aws:iam::768457611014:role/TestS3',
     bucket: 'vikar-investors-bank-file-bucket'
 };
